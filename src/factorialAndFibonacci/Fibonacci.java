@@ -1,5 +1,6 @@
 package factorialAndFibonacci;
 
+
 public class Fibonacci {
     public int chooseFibonacсiLoop(int loopType, int n) {
         if (loopType == 1) {

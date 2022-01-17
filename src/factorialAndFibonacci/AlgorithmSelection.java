@@ -1,5 +1,6 @@
 package factorialAndFibonacci;
 
+
 public class AlgorithmSelection {
     public int choseFibonacciOrFactorial(int algorithmId, int loopType, int n) {
         if (algorithmId == 1) {
