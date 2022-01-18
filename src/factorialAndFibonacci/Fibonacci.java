@@ -2,15 +2,15 @@ package factorialAndFibonacci;
 
 
 public class Fibonacci {
-    public int chooseFibonacсiLoop(int loopType, int n) {
+    public int[] chooseFibonacсiLoop(int loopType, int n) {
         if (loopType == 1) {
-            getFibonacсiWithWhile(n);
+            return getFibonacсiWithWhile(n);
         }
         if (loopType == 2) {
-            getFibonacсiWithDoWhile(n);
+            return getFibonacсiWithDoWhile(n);
         }
         if (loopType == 3) {
-            getFibonacсiWithFor(n);
+            return getFibonacсiWithFor(n);
         }
         throw new IllegalArgumentException("Incorrect value, enter a number from 1 to 3");
     }
